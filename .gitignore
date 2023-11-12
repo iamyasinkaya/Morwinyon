@@ -264,3 +264,6 @@ FakesAssemblies/
 
 # Visual Studio Mac
 *.DS_Store
+
+#nuspec
+*.nuspec
