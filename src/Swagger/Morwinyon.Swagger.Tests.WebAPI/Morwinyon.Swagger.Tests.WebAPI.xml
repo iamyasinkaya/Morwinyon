@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<doc>
+	<assembly>
+		<name>Morwinyon.Swagger.Tests.WebAPI</name>
+	</assembly>
+	<members>
+		<member name="M:Morwinyon.Swagger.Tests.WebAPI.Controllers.v1.TestController.Get">
+			<summary>
+				Gets OK1 result
+			</summary>
+			<returns>IActionResult</returns>
+		</member>
+		<member name="M:Morwinyon.Swagger.Tests.WebAPI.Controllers.v1.TestController.Post(TestModel)">
+			<summary>
+				Gets the FullName property in the post model
+			</summary>
+			<param name="testModel"></param>
+			<returns>IActionResult</returns>
+		</member>
+	</members>
+</doc>
