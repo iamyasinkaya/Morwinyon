@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Morwinyon.Validation.Tests.AzureFunction": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7154",
+      "launchBrowser": false
+    }
+  }
+}

@@ -21,6 +21,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.ExceptionHandling
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.ExceptionHandling.Tests", "src\ExceptionHandling\Morwinyon.ExceptionHandling.Tests\Morwinyon.ExceptionHandling.Tests.csproj", "{29066160-2C15-4B5C-8B8B-A67C75537DF4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Validation", "Validation", "{EA031DA1-4852-43BF-842A-2B24B0BE17EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.Validation", "src\Validation\Morwinyon.Validation\Morwinyon.Validation.csproj", "{0D26B88F-435E-4C57-BFED-65CE66A114EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.Validation.Tests", "src\Validation\Morwinyon.Validation.Tests\Morwinyon.Validation.Tests.csproj", "{9235EF7F-4F0D-4DB1-93A3-78D5724BC40F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.Validation.Tests.AzureFunction", "src\Validation\Morwinyon.Validation.Tests.AzureFunction\Morwinyon.Validation.Tests.AzureFunction.csproj", "{F3565306-B9E8-4A1D-AC4C-F52456BF7AC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.Validation.WebAPI", "src\Validation\Morwinyon.Validation.WebAPI\Morwinyon.Validation.WebAPI.csproj", "{0ACEB508-923D-4510-8F62-A12ADDDD8714}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +57,22 @@ Global
 		{29066160-2C15-4B5C-8B8B-A67C75537DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29066160-2C15-4B5C-8B8B-A67C75537DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29066160-2C15-4B5C-8B8B-A67C75537DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D26B88F-435E-4C57-BFED-65CE66A114EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D26B88F-435E-4C57-BFED-65CE66A114EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D26B88F-435E-4C57-BFED-65CE66A114EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D26B88F-435E-4C57-BFED-65CE66A114EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9235EF7F-4F0D-4DB1-93A3-78D5724BC40F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9235EF7F-4F0D-4DB1-93A3-78D5724BC40F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9235EF7F-4F0D-4DB1-93A3-78D5724BC40F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9235EF7F-4F0D-4DB1-93A3-78D5724BC40F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3565306-B9E8-4A1D-AC4C-F52456BF7AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3565306-B9E8-4A1D-AC4C-F52456BF7AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3565306-B9E8-4A1D-AC4C-F52456BF7AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3565306-B9E8-4A1D-AC4C-F52456BF7AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ACEB508-923D-4510-8F62-A12ADDDD8714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ACEB508-923D-4510-8F62-A12ADDDD8714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ACEB508-923D-4510-8F62-A12ADDDD8714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ACEB508-923D-4510-8F62-A12ADDDD8714}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +86,11 @@ Global
 		{71DD5FA7-90D3-40CB-9D17-A7B9AF07988A} = {B94DF8CB-445C-4AF8-AA11-B7F53F23B2EA}
 		{335901D8-2013-40D8-9897-1B907116BFF1} = {71DD5FA7-90D3-40CB-9D17-A7B9AF07988A}
 		{29066160-2C15-4B5C-8B8B-A67C75537DF4} = {71DD5FA7-90D3-40CB-9D17-A7B9AF07988A}
+		{EA031DA1-4852-43BF-842A-2B24B0BE17EA} = {B94DF8CB-445C-4AF8-AA11-B7F53F23B2EA}
+		{0D26B88F-435E-4C57-BFED-65CE66A114EB} = {EA031DA1-4852-43BF-842A-2B24B0BE17EA}
+		{9235EF7F-4F0D-4DB1-93A3-78D5724BC40F} = {EA031DA1-4852-43BF-842A-2B24B0BE17EA}
+		{F3565306-B9E8-4A1D-AC4C-F52456BF7AC6} = {EA031DA1-4852-43BF-842A-2B24B0BE17EA}
+		{0ACEB508-923D-4510-8F62-A12ADDDD8714} = {EA031DA1-4852-43BF-842A-2B24B0BE17EA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECC4004B-037E-4773-8012-C4D1873C170F}
