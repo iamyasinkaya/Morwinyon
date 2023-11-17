@@ -66,7 +66,7 @@ internal class ConfigureSwaggerOptions : IConfigureNamedOptions<SwaggerGenOption
             Version = description.ApiVersion.ToString(),
             Contact = new OpenApiContact()
             {
-                Name = "https://youtube.com/c/TechBuddyTR"
+                Name = ""
             }
         };
 
