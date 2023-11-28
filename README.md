@@ -8,3 +8,4 @@ Morwinyon, geliştiricilere var olan .NET yazılım projelerine ek işlevsellikl
 - **Versioning:** Projenizin farklı sürümlerini kolaylıkla yönetmenizi sağlayan özellikler.
 - **Validation:** Bu eklenti, gelen verilerin veya isteklerin doğruluğunu kontrol eder. Yani, kullanıcıdan gelen bilgileri kontrol ederek, yanlış veya hatalı verilerin sisteme girmesini engeller.
 - **OpenApi:** Bu eklenti, API'nin nasıl kullanılacağını belirlemeye yardımcı olur. Kullanıcıların API'yi daha iyi anlamalarına ve doğru şekilde kullanmalarına yardımcı olur. Yani, API'nin kullanım kılavuzunu gibi düşünebilirsiniz.
+- **Caching:** Bu eklenti, tüm cache yöntemlerini tek bir çatı altında barındırır.
