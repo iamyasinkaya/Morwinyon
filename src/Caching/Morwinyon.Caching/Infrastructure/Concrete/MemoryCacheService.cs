@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System;
 using System.Linq;
 
-namespace Morwinyon.Caching;
+namespace Morwinyon.Caching { 
 
 /// <summary>
 /// Implementation of the ICacheService<T> interface using the IMemoryCache.
@@ -132,4 +132,5 @@ public class MemoryCacheService<T> : ICacheService<T>
             _cacheKeys.Remove(key);
         }
     }
+}
 }

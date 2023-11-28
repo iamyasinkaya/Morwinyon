@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Morwinyon.Caching;
+namespace Morwinyon.Caching { 
 
 /// <summary>
 /// 
@@ -69,4 +69,5 @@ public interface ICacheService<T>
     /// <param name="expirationTime">Time duration for the value to remain in the cache.</param>
     /// <returns>The value representing the added item (if added), otherwise the default value.</returns>
     T GetOrSet(string key, T value, TimeSpan expirationTime);
+}
 }

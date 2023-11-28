@@ -1,4 +1,4 @@
-﻿namespace Morwinyon.Caching;
+﻿namespace Morwinyon.Caching { 
 
 /// <summary>
 /// Represents the configuration options for caching, including Redis and memory cache settings.
@@ -14,4 +14,5 @@ public class CacheOptions
     /// Gets or sets the configuration for in-memory cache.
     /// </summary>
     public MemoryCacheConfig MemoryConfig { get; set; }
+}
 }

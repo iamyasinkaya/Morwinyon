@@ -1,8 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net6.0</TargetFramework>
-		
+		<TargetFrameworks>net5.0;net6.0;net7.0</TargetFrameworks>
 
 		<AssemblyName>Morwinyon.Caching</AssemblyName>
 		<RootNamespace>Morwinyon.Caching</RootNamespace>
@@ -29,6 +28,7 @@
 		<PackageProjectUrl>https://github.com/iamyasinkaya/Morwinyon</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/iamyasinkaya/Morwinyon</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
+		<SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
 	</PropertyGroup>
 
 	<ItemGroup>

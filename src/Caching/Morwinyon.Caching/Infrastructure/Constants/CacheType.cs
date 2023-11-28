@@ -1,17 +1,19 @@
-﻿namespace Morwinyon.Caching;
-
-/// <summary>
-/// Enumerates the types of caching mechanisms supported.
-/// </summary>
-public enum CacheType
+﻿namespace Morwinyon.Caching
 {
-    /// <summary>
-    /// Represents an in-memory cache.
-    /// </summary>
-    Memory = 0,
 
     /// <summary>
-    /// Represents a Redis cache.
+    /// Enumerates the types of caching mechanisms supported.
     /// </summary>
-    Redis = 1
+    public enum CacheType
+    {
+        /// <summary>
+        /// Represents an in-memory cache.
+        /// </summary>
+        Memory = 0,
+
+        /// <summary>
+        /// Represents a Redis cache.
+        /// </summary>
+        Redis = 1
+    }
 }
