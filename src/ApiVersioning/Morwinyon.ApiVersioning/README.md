@@ -9,7 +9,7 @@ ApiVersioningConfig has three different functions, can be seen below, which is t
 ## Nuget
 | Package Name | Package | Download |
 | ------------- | ------------- | ------------- |
-| ApiVersioning | [![](https://img.shields.io/nuget/v/Morwinyon.Extensions.AspNetCore.ApiVersioning?style=for-the-badge)](https://www.nuget.org/packages/Morwinyon.AspNetCore.ApiVersioning) | [![](https://img.shields.io/nuget/dt/Morwinyon.Extensions.AspNetCore.ApiVersioning?style=for-the-badge)](https://www.nuget.org/packages/Morwinyon.AspNetCore.ApiVersioning/) |
+| ApiVersioning | [![](https://img.shields.io/nuget/v/Morwinyon.AspNetCore.ApiVersioning?style=for-the-badge)](https://www.nuget.org/packages/Morwinyon.AspNetCore.ApiVersioning) | [![](https://img.shields.io/nuget/dt/Morwinyon.Extensions.AspNetCore.ApiVersioning?style=for-the-badge)](https://www.nuget.org/packages/Morwinyon.AspNetCore.ApiVersioning/) |
 
 ### Installation
 
