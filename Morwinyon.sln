@@ -17,27 +17,35 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Morwinyon.TestCommon", "src
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExceptionHandling", "ExceptionHandling", "{71DD5FA7-90D3-40CB-9D17-A7B9AF07988A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.ExceptionHandling", "src\ExceptionHandling\Morwinyon.ExceptionHandling\Morwinyon.ExceptionHandling.csproj", "{335901D8-2013-40D8-9897-1B907116BFF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Morwinyon.ExceptionHandling", "src\ExceptionHandling\Morwinyon.ExceptionHandling\Morwinyon.ExceptionHandling.csproj", "{335901D8-2013-40D8-9897-1B907116BFF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.ExceptionHandling.Tests", "src\ExceptionHandling\Morwinyon.ExceptionHandling.Tests\Morwinyon.ExceptionHandling.Tests.csproj", "{29066160-2C15-4B5C-8B8B-A67C75537DF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Morwinyon.ExceptionHandling.Tests", "src\ExceptionHandling\Morwinyon.ExceptionHandling.Tests\Morwinyon.ExceptionHandling.Tests.csproj", "{29066160-2C15-4B5C-8B8B-A67C75537DF4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Validation", "Validation", "{EA031DA1-4852-43BF-842A-2B24B0BE17EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.Validation", "src\Validation\Morwinyon.Validation\Morwinyon.Validation.csproj", "{0D26B88F-435E-4C57-BFED-65CE66A114EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Morwinyon.Validation", "src\Validation\Morwinyon.Validation\Morwinyon.Validation.csproj", "{0D26B88F-435E-4C57-BFED-65CE66A114EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.Validation.Tests", "src\Validation\Morwinyon.Validation.Tests\Morwinyon.Validation.Tests.csproj", "{9235EF7F-4F0D-4DB1-93A3-78D5724BC40F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Morwinyon.Validation.Tests", "src\Validation\Morwinyon.Validation.Tests\Morwinyon.Validation.Tests.csproj", "{9235EF7F-4F0D-4DB1-93A3-78D5724BC40F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.Validation.Tests.AzureFunction", "src\Validation\Morwinyon.Validation.Tests.AzureFunction\Morwinyon.Validation.Tests.AzureFunction.csproj", "{F3565306-B9E8-4A1D-AC4C-F52456BF7AC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Morwinyon.Validation.Tests.AzureFunction", "src\Validation\Morwinyon.Validation.Tests.AzureFunction\Morwinyon.Validation.Tests.AzureFunction.csproj", "{F3565306-B9E8-4A1D-AC4C-F52456BF7AC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.Validation.WebAPI", "src\Validation\Morwinyon.Validation.WebAPI\Morwinyon.Validation.WebAPI.csproj", "{0ACEB508-923D-4510-8F62-A12ADDDD8714}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Morwinyon.Validation.WebAPI", "src\Validation\Morwinyon.Validation.WebAPI\Morwinyon.Validation.WebAPI.csproj", "{0ACEB508-923D-4510-8F62-A12ADDDD8714}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Swagger", "Swagger", "{9685F6A4-6EBA-4863-876C-93DAEF8953DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.Swagger", "src\Swagger\Morwinyon.Swagger\Morwinyon.Swagger.csproj", "{03D7CAFB-14C4-4031-8279-9E840734D842}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Morwinyon.Swagger", "src\Swagger\Morwinyon.Swagger\Morwinyon.Swagger.csproj", "{03D7CAFB-14C4-4031-8279-9E840734D842}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.Swagger.Tests", "src\Swagger\Morwinyon.Swagger.Tests\Morwinyon.Swagger.Tests.csproj", "{60EC29E0-1448-4DF0-9552-5922BF5A2786}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Morwinyon.Swagger.Tests", "src\Swagger\Morwinyon.Swagger.Tests\Morwinyon.Swagger.Tests.csproj", "{60EC29E0-1448-4DF0-9552-5922BF5A2786}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.Swagger.Tests.WebAPI", "src\Swagger\Morwinyon.Swagger.Tests.WebAPI\Morwinyon.Swagger.Tests.WebAPI.csproj", "{6DAA512A-B75D-4639-8E67-9C3E4588B055}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Morwinyon.Swagger.Tests.WebAPI", "src\Swagger\Morwinyon.Swagger.Tests.WebAPI\Morwinyon.Swagger.Tests.WebAPI.csproj", "{6DAA512A-B75D-4639-8E67-9C3E4588B055}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Caching", "Caching", "{8D9DC284-C60D-44B7-A60F-7C60DA108595}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Morwinyon.Caching", "src\Caching\Morwinyon.Caching\Morwinyon.Caching.csproj", "{AED19CE1-97EC-423F-B81C-BBC1B9FBBD74}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Morwinyon.Caching.Tests.WebAPI", "src\Caching\Morwinyon.Caching.Tests.WebAPI\Morwinyon.Caching.Tests.WebAPI.csproj", "{ADFEDACF-2983-480C-A347-CAE3E7205EA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.Caching.Tests", "src\Caching\Morwinyon.Caching.Tests\Morwinyon.Caching.Tests.csproj", "{B69BDB1B-D059-46E4-B9FF-6B74639A1377}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +101,18 @@ Global
 		{6DAA512A-B75D-4639-8E67-9C3E4588B055}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DAA512A-B75D-4639-8E67-9C3E4588B055}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DAA512A-B75D-4639-8E67-9C3E4588B055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AED19CE1-97EC-423F-B81C-BBC1B9FBBD74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED19CE1-97EC-423F-B81C-BBC1B9FBBD74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED19CE1-97EC-423F-B81C-BBC1B9FBBD74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED19CE1-97EC-423F-B81C-BBC1B9FBBD74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADFEDACF-2983-480C-A347-CAE3E7205EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADFEDACF-2983-480C-A347-CAE3E7205EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADFEDACF-2983-480C-A347-CAE3E7205EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADFEDACF-2983-480C-A347-CAE3E7205EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B69BDB1B-D059-46E4-B9FF-6B74639A1377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B69BDB1B-D059-46E4-B9FF-6B74639A1377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B69BDB1B-D059-46E4-B9FF-6B74639A1377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B69BDB1B-D059-46E4-B9FF-6B74639A1377}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -115,6 +135,10 @@ Global
 		{03D7CAFB-14C4-4031-8279-9E840734D842} = {9685F6A4-6EBA-4863-876C-93DAEF8953DA}
 		{60EC29E0-1448-4DF0-9552-5922BF5A2786} = {9685F6A4-6EBA-4863-876C-93DAEF8953DA}
 		{6DAA512A-B75D-4639-8E67-9C3E4588B055} = {9685F6A4-6EBA-4863-876C-93DAEF8953DA}
+		{8D9DC284-C60D-44B7-A60F-7C60DA108595} = {B94DF8CB-445C-4AF8-AA11-B7F53F23B2EA}
+		{AED19CE1-97EC-423F-B81C-BBC1B9FBBD74} = {8D9DC284-C60D-44B7-A60F-7C60DA108595}
+		{ADFEDACF-2983-480C-A347-CAE3E7205EA3} = {8D9DC284-C60D-44B7-A60F-7C60DA108595}
+		{B69BDB1B-D059-46E4-B9FF-6B74639A1377} = {8D9DC284-C60D-44B7-A60F-7C60DA108595}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECC4004B-037E-4773-8012-C4D1873C170F}
