@@ -107,6 +107,7 @@ namespace Morwinyon.Caching
         {
             services.AddSingleton<IMemoryCache, MemoryCache>();
             services.AddTransient(typeof(ICacheService<>), typeof(MemoryCacheService<>));
+            services.AddTransient(typeof(ICustomCachingSerializer), typeof(CustomCachingSerializer));
         }
     }
 }

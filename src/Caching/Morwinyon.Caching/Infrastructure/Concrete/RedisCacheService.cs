@@ -15,15 +15,17 @@ namespace Morwinyon.Caching
         private readonly IConnectionMultiplexer _redisConnection;
         private readonly IDatabase _redisDatabase;
         private readonly object _redisLock = new object();
+        private readonly ICustomCachingSerializer _customSerializer;
 
         /// <summary>
         /// Initializes a new instance of the RedisCacheService<T> class.
         /// </summary>
         /// <param name="redisConnection">The IConnectionMultiplexer instance representing the connection to Redis.</param>
-        public RedisCacheService(IConnectionMultiplexer redisConnection)
+        public RedisCacheService(IConnectionMultiplexer redisConnection, ICustomCachingSerializer customSerializer)
         {
             _redisConnection = redisConnection ?? throw new ArgumentNullException(nameof(redisConnection));
             _redisDatabase = _redisConnection.GetDatabase();
+            _customSerializer = customSerializer;
         }
 
         /// <inheritdoc/>
@@ -45,7 +47,7 @@ namespace Morwinyon.Caching
         {
             try
             {
-                _redisDatabase.StringSet(key, SerializationExtensions.Serialize(value), expirationTime);
+                _redisDatabase.StringSet(key, _customSerializer.SerializeData<T>(value), expirationTime);
             }
             catch (RedisConnectionException ex)
             {
@@ -62,7 +64,7 @@ namespace Morwinyon.Caching
                 var redisValue = _redisDatabase.StringGet(key);
                 if (redisValue.HasValue)
                 {
-                    value = SerializationExtensions.Deserialize<T>(redisValue);
+                    value = _customSerializer.DeserializeData<T>(redisValue);
                     return true;
                 }
             }

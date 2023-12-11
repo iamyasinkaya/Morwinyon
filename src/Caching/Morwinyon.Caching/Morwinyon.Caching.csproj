@@ -10,7 +10,7 @@
 	<PropertyGroup>
 		<IsPackable>true</IsPackable>
 		<GenerateAppxPackageOnBuild>true</GenerateAppxPackageOnBuild>
-		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<GenerateDocumentationFile>false</GenerateDocumentationFile>
 		<PackageId>Morwinyon.Caching</PackageId>
 		<PackageTags>Caching; Cache; Extensions; Caching Extensions;</PackageTags>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>

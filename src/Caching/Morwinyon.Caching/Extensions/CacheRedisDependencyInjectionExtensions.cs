@@ -59,6 +59,7 @@ namespace Morwinyon.Caching
             };
             services.AddSingleton<IConnectionMultiplexer>(_ => ConnectionMultiplexer.Connect(redisConfiguration));
             services.AddTransient(typeof(ICacheService<>), typeof(RedisCacheService<>));
+            services.AddTransient(typeof(ICustomCachingSerializer),typeof(CustomCachingSerializer));
 
             return services;
         }
