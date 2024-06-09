@@ -45,7 +45,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Morwinyon.Caching", "src\Ca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Morwinyon.Caching.Tests.WebAPI", "src\Caching\Morwinyon.Caching.Tests.WebAPI\Morwinyon.Caching.Tests.WebAPI.csproj", "{ADFEDACF-2983-480C-A347-CAE3E7205EA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.Caching.Tests", "src\Caching\Morwinyon.Caching.Tests\Morwinyon.Caching.Tests.csproj", "{B69BDB1B-D059-46E4-B9FF-6B74639A1377}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Morwinyon.Caching.Tests", "src\Caching\Morwinyon.Caching.Tests\Morwinyon.Caching.Tests.csproj", "{B69BDB1B-D059-46E4-B9FF-6B74639A1377}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logging", "Logging", "{02ED99CB-CE17-4B72-94B1-AB58C0800456}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Morwinyon.Logging", "src\Logging\Morwinyon.Logging\Morwinyon.Logging.csproj", "{72CC5050-984E-4053-BB41-E582340CD30A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.Logging.Tests.WebAPI", "src\Logging\Morwinyon.Logging.Tests.WebAPI\Morwinyon.Logging.Tests.WebAPI.csproj", "{07D333BD-4029-45D9-AC2E-C7915476B043}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,6 +119,14 @@ Global
 		{B69BDB1B-D059-46E4-B9FF-6B74639A1377}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B69BDB1B-D059-46E4-B9FF-6B74639A1377}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B69BDB1B-D059-46E4-B9FF-6B74639A1377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72CC5050-984E-4053-BB41-E582340CD30A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72CC5050-984E-4053-BB41-E582340CD30A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72CC5050-984E-4053-BB41-E582340CD30A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72CC5050-984E-4053-BB41-E582340CD30A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07D333BD-4029-45D9-AC2E-C7915476B043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D333BD-4029-45D9-AC2E-C7915476B043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D333BD-4029-45D9-AC2E-C7915476B043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D333BD-4029-45D9-AC2E-C7915476B043}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -139,6 +153,9 @@ Global
 		{AED19CE1-97EC-423F-B81C-BBC1B9FBBD74} = {8D9DC284-C60D-44B7-A60F-7C60DA108595}
 		{ADFEDACF-2983-480C-A347-CAE3E7205EA3} = {8D9DC284-C60D-44B7-A60F-7C60DA108595}
 		{B69BDB1B-D059-46E4-B9FF-6B74639A1377} = {8D9DC284-C60D-44B7-A60F-7C60DA108595}
+		{02ED99CB-CE17-4B72-94B1-AB58C0800456} = {B94DF8CB-445C-4AF8-AA11-B7F53F23B2EA}
+		{72CC5050-984E-4053-BB41-E582340CD30A} = {02ED99CB-CE17-4B72-94B1-AB58C0800456}
+		{07D333BD-4029-45D9-AC2E-C7915476B043} = {02ED99CB-CE17-4B72-94B1-AB58C0800456}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECC4004B-037E-4773-8012-C4D1873C170F}
