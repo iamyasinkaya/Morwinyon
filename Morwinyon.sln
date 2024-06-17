@@ -51,7 +51,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logging", "Logging", "{02ED
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Morwinyon.Logging", "src\Logging\Morwinyon.Logging\Morwinyon.Logging.csproj", "{72CC5050-984E-4053-BB41-E582340CD30A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.Logging.Tests.WebAPI", "src\Logging\Morwinyon.Logging.Tests.WebAPI\Morwinyon.Logging.Tests.WebAPI.csproj", "{07D333BD-4029-45D9-AC2E-C7915476B043}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Morwinyon.Logging.Tests.WebAPI", "src\Logging\Morwinyon.Logging.Tests.WebAPI\Morwinyon.Logging.Tests.WebAPI.csproj", "{07D333BD-4029-45D9-AC2E-C7915476B043}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{23EE4CE5-DCD2-4D39-819E-AE168CDA1D3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.Auth", "src\Auth\Morwinyon.Auth\Morwinyon.Auth.csproj", "{1CE8CFBD-46B1-46BE-B1B9-B85931F96658}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.Auth.Tests.WebAPI", "src\Auth\Morwinyon.Auth.Tests.WebAPI\Morwinyon.Auth.Tests.WebAPI.csproj", "{140D8349-3A9F-4059-9AE4-52D2F4108B6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -127,6 +133,14 @@ Global
 		{07D333BD-4029-45D9-AC2E-C7915476B043}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07D333BD-4029-45D9-AC2E-C7915476B043}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07D333BD-4029-45D9-AC2E-C7915476B043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CE8CFBD-46B1-46BE-B1B9-B85931F96658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE8CFBD-46B1-46BE-B1B9-B85931F96658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CE8CFBD-46B1-46BE-B1B9-B85931F96658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CE8CFBD-46B1-46BE-B1B9-B85931F96658}.Release|Any CPU.Build.0 = Release|Any CPU
+		{140D8349-3A9F-4059-9AE4-52D2F4108B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{140D8349-3A9F-4059-9AE4-52D2F4108B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{140D8349-3A9F-4059-9AE4-52D2F4108B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{140D8349-3A9F-4059-9AE4-52D2F4108B6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -156,6 +170,9 @@ Global
 		{02ED99CB-CE17-4B72-94B1-AB58C0800456} = {B94DF8CB-445C-4AF8-AA11-B7F53F23B2EA}
 		{72CC5050-984E-4053-BB41-E582340CD30A} = {02ED99CB-CE17-4B72-94B1-AB58C0800456}
 		{07D333BD-4029-45D9-AC2E-C7915476B043} = {02ED99CB-CE17-4B72-94B1-AB58C0800456}
+		{23EE4CE5-DCD2-4D39-819E-AE168CDA1D3A} = {B94DF8CB-445C-4AF8-AA11-B7F53F23B2EA}
+		{1CE8CFBD-46B1-46BE-B1B9-B85931F96658} = {23EE4CE5-DCD2-4D39-819E-AE168CDA1D3A}
+		{140D8349-3A9F-4059-9AE4-52D2F4108B6A} = {23EE4CE5-DCD2-4D39-819E-AE168CDA1D3A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECC4004B-037E-4773-8012-C4D1873C170F}
