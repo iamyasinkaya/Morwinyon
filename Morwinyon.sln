@@ -59,6 +59,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.Auth", "src\Auth\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.Auth.Tests.WebAPI", "src\Auth\Morwinyon.Auth.Tests.WebAPI\Morwinyon.Auth.Tests.WebAPI.csproj", "{140D8349-3A9F-4059-9AE4-52D2F4108B6A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomizedMiddlewares", "CustomizedMiddlewares", "{DFE50FDD-374D-4A70-BA23-BA939D5B7531}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.CustomizedMiddlewares", "src\CustomizedMiddlewares\Morwinyon.CustomizedMiddlewares\Morwinyon.CustomizedMiddlewares.csproj", "{250A7265-619F-4BCA-AA5B-0E1AF4CDFCC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RateLimiting", "RateLimiting", "{C7036906-613B-4637-9156-2F00978B6435}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.RateLimiting", "src\RateLimiting\Morwinyon.RateLimiting\Morwinyon.RateLimiting.csproj", "{420E6042-7133-4EE4-AA22-BE7C789147EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.RateLimiting.Test.WebAPI", "src\RateLimiting\Morwinyon.RateLimiting.Test.WebAPI\Morwinyon.RateLimiting.Test.WebAPI.csproj", "{64DA71CA-6F18-4B1E-AB18-4F26F605ADC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +151,18 @@ Global
 		{140D8349-3A9F-4059-9AE4-52D2F4108B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{140D8349-3A9F-4059-9AE4-52D2F4108B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{140D8349-3A9F-4059-9AE4-52D2F4108B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{250A7265-619F-4BCA-AA5B-0E1AF4CDFCC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{250A7265-619F-4BCA-AA5B-0E1AF4CDFCC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{250A7265-619F-4BCA-AA5B-0E1AF4CDFCC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{250A7265-619F-4BCA-AA5B-0E1AF4CDFCC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{420E6042-7133-4EE4-AA22-BE7C789147EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{420E6042-7133-4EE4-AA22-BE7C789147EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{420E6042-7133-4EE4-AA22-BE7C789147EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{420E6042-7133-4EE4-AA22-BE7C789147EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64DA71CA-6F18-4B1E-AB18-4F26F605ADC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64DA71CA-6F18-4B1E-AB18-4F26F605ADC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64DA71CA-6F18-4B1E-AB18-4F26F605ADC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64DA71CA-6F18-4B1E-AB18-4F26F605ADC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -173,6 +195,11 @@ Global
 		{23EE4CE5-DCD2-4D39-819E-AE168CDA1D3A} = {B94DF8CB-445C-4AF8-AA11-B7F53F23B2EA}
 		{1CE8CFBD-46B1-46BE-B1B9-B85931F96658} = {23EE4CE5-DCD2-4D39-819E-AE168CDA1D3A}
 		{140D8349-3A9F-4059-9AE4-52D2F4108B6A} = {23EE4CE5-DCD2-4D39-819E-AE168CDA1D3A}
+		{DFE50FDD-374D-4A70-BA23-BA939D5B7531} = {B94DF8CB-445C-4AF8-AA11-B7F53F23B2EA}
+		{250A7265-619F-4BCA-AA5B-0E1AF4CDFCC0} = {DFE50FDD-374D-4A70-BA23-BA939D5B7531}
+		{C7036906-613B-4637-9156-2F00978B6435} = {B94DF8CB-445C-4AF8-AA11-B7F53F23B2EA}
+		{420E6042-7133-4EE4-AA22-BE7C789147EA} = {C7036906-613B-4637-9156-2F00978B6435}
+		{64DA71CA-6F18-4B1E-AB18-4F26F605ADC9} = {C7036906-613B-4637-9156-2F00978B6435}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECC4004B-037E-4773-8012-C4D1873C170F}
