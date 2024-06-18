@@ -69,6 +69,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.RateLimiting", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.RateLimiting.Test.WebAPI", "src\RateLimiting\Morwinyon.RateLimiting.Test.WebAPI\Morwinyon.RateLimiting.Test.WebAPI.csproj", "{64DA71CA-6F18-4B1E-AB18-4F26F605ADC9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ResilienceFaultTolerance", "ResilienceFaultTolerance", "{C8EA5BC1-DEA9-4A97-9C21-1D02809589EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.ResilienceFaultTolerance", "src\ResilienceFaultTolerance\Morwinyon.ResilienceFaultTolerance\Morwinyon.ResilienceFaultTolerance.csproj", "{211D6AD5-6707-4B1E-8EDC-FBA5D6A36EB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morwinyon.ResilienceFaultTolerance.Test.Console", "src\ResilienceFaultTolerance\Morwinyon.ResilienceFaultTolerance.Test.Console\Morwinyon.ResilienceFaultTolerance.Test.Console.csproj", "{CA54B920-BF6D-40DA-BFA0-FAF72163E6C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -163,6 +169,14 @@ Global
 		{64DA71CA-6F18-4B1E-AB18-4F26F605ADC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64DA71CA-6F18-4B1E-AB18-4F26F605ADC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64DA71CA-6F18-4B1E-AB18-4F26F605ADC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{211D6AD5-6707-4B1E-8EDC-FBA5D6A36EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{211D6AD5-6707-4B1E-8EDC-FBA5D6A36EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{211D6AD5-6707-4B1E-8EDC-FBA5D6A36EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{211D6AD5-6707-4B1E-8EDC-FBA5D6A36EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA54B920-BF6D-40DA-BFA0-FAF72163E6C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA54B920-BF6D-40DA-BFA0-FAF72163E6C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA54B920-BF6D-40DA-BFA0-FAF72163E6C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA54B920-BF6D-40DA-BFA0-FAF72163E6C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -200,6 +214,9 @@ Global
 		{C7036906-613B-4637-9156-2F00978B6435} = {B94DF8CB-445C-4AF8-AA11-B7F53F23B2EA}
 		{420E6042-7133-4EE4-AA22-BE7C789147EA} = {C7036906-613B-4637-9156-2F00978B6435}
 		{64DA71CA-6F18-4B1E-AB18-4F26F605ADC9} = {C7036906-613B-4637-9156-2F00978B6435}
+		{C8EA5BC1-DEA9-4A97-9C21-1D02809589EA} = {B94DF8CB-445C-4AF8-AA11-B7F53F23B2EA}
+		{211D6AD5-6707-4B1E-8EDC-FBA5D6A36EB6} = {C8EA5BC1-DEA9-4A97-9C21-1D02809589EA}
+		{CA54B920-BF6D-40DA-BFA0-FAF72163E6C3} = {C8EA5BC1-DEA9-4A97-9C21-1D02809589EA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECC4004B-037E-4773-8012-C4D1873C170F}
