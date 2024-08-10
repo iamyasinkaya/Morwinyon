@@ -179,4 +179,4 @@ Herhangi bir soru, öneri veya geri bildirim için bizimle iletişime geçebilir
 
 - **Adı**: Yasin Kaya
 - **E-posta**: iamyasinkaya@gmail.com
-- **LinkedIn**: [Yasin Kaya](https://www.linkedin.com/in/yourprofile)
+- **LinkedIn**: [Yasin Kaya](https://www.linkedin.com/in/iamyasinkaya)
